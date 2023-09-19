@@ -1,0 +1,18 @@
+package projects;
+
+import projects.dao.DbConnection;
+
+public class ProjectsApp {
+
+  public static void main(String[] args) {
+    DbConnection.getConnection();
+  }
+  
+  private void ListProjects() {
+	  List<Project> projects = projectService.fetchAllProjects();
+	  
+	  System.out.println("\nProjects:");
+	  projects.forEach(project -> System.out.println("	" + project.getProjectId() + ": " + project.getProjectName())
+  }
+
+}

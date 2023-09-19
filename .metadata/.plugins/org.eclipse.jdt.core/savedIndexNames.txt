@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\THE ANIMA PROJECT\schoolProjects\week 10\.metadata\.plugins\org.eclipse.jdt.core
+405267515.index
+1865797976.index
+570987266.index
+3413725848.index
